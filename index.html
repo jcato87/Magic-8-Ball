@@ -12,18 +12,20 @@
 
     <h1>Ask the Magic 8-Ball</h1>
     <br>
-    <label for="fname">Enter Your Name: </label>
-    <input type="text" id="fname" name="fname">
-    <button onclick="firstSentence()" id="submit-one">Submit</button> 
-    <p id="greeting"> </p><br>
-    <label for="question">Ask Your Question: </label>
-    <input type="text" id="question" name="question">
-    <button onclick="secondSentence()" id="submit-two">Submit</button>
-    <p id="statement"> </p><br>
-    <p id="restart-statement">Restart before asking a new question.</p>
-    <button type="button" onClick="window.location.reload()">
+    <div class="fill-in-answers">
+        <label for="fname">Enter Your Name: </label>
+        <input type="text" id="fname" name="fname">
+        <button onclick="firstSentence()" id="submit-one">Submit</button> 
+        <p id="greeting"> </p><br>
+        <label for="question">Ask Your Question: </label>
+        <input type="text" id="question" name="question">
+        <button onclick="secondSentence()" id="submit-two">Submit</button>
+        <p id="statement"> </p><br>
+        <p id="restart-statement">Restart before asking a new question.</p>
+        <button type="button" onClick="window.location.reload()">
         Restart
-     </button><br><br><br>
+        </button><br><br><br>
+    </div>   
 
   
     <div class="div-ball">
