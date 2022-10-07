@@ -43,6 +43,15 @@ h1 {
         width: 10%;
         font-size: 0.5rem;
     }
+    
+    .fill-in-answers {
+        width: 75%;
+    }
+
+    .title {
+        text-align: center;
+        width: 90%;
+    }
 }
 
 @media only screen and (min-width: 577px) and (max-width: 767px) {
